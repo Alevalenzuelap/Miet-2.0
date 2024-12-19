@@ -1,1 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #0078D7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#login, button#signup {
+  background-color: #555;
+  color: white;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 2rem;
+}
